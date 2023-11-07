@@ -19,7 +19,7 @@ Server s;
 Client c;
 Serial p;
 void setup(){
-  p = new Serial(this,"COM3",9600);
+  p = new Serial(this,"COM8",9600);
   s = new Server(this, 12345);
 }
 void draw(){
